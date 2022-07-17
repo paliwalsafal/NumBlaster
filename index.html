@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NumBlaster</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="fixed">
+        <header>
+            <div class="title">
+                <i class="fas fa-random"></i>
+                <h1>NumBlaster</h1>
+            </div>
+            <ul class="uno">
+                <li><a href="sudoku/index.html">Sudoku</a></li>
+                <li><a href="2048/index.html">2048</a></li>
+                
+               
+            </ul>
+        </header>
+        <div id="loader"></div>
+    </div>
+    <div class="filler"></div>
+
+
+    <div class="about">
+        <ul>
+            <li id="left">AB<span style="background-color:#A00000  ;">OUT</span></li>
+            <li id="right"><span style="background-color:#A00000  ;">Num</span>Blaster</li>
+        </ul>    
+    </div>
+    
+
+    <div class="about-text" data-aos="zoom-in" data-aos-offset="150" data-aos-duration="1800">
+        <p>NumBlaster is an one-place destination for all puzzle geeks. You can play here most interesting puzzles of all times i.e, 
+	Sudoku and 2048. Sudoku, on one hand,is a logic-based, combinatorial number-placement puzzle with the goal to fill a 9×9 grid with numbers so that each row, column and 3×3 section contain all of the digits between 1 and 9 whereas 2048 is a sliding block puzzle with an aim to combine the numbers displayed on the tiles until you reach 2048. </p>
+    </div>
+
+    <div class="options">
+        <div class="dice" data-aos="flip-up" data-aos-delay="180">
+            <a href="sudoku/index.html"><div class="overlay">
+                <div class="overlay-text">Play!</div>
+            </div></a>
+        </div>
+        <div class="coin" data-aos="flip-up" data-aos-delay="200">
+            <a href="2048/index.html"><div class="overlay">
+                <div class="overlay-text">Play!</div>
+            </div></a>
+        </div>
+        
+    </div>
+
+    <!-- <span id="one-dice">>></span>
+    <div class="one" data-aos="flip-down">
+        <div class="h">Roll A Dice</div>
+        <div class="output"><h1 id="dieroll">-</h1></div>
+        <div class="submit" id="diesubmit"><button>Roll It!</button></div>
+    </div>
+
+    <span id="one-coin">>></span>
+    <div class="one" data-aos="flip-down">
+        <div class="h">Flip A Coin</div>
+        <div class="output"><h1 id="flipcoin" style="font-size: 20px; top: 40%;">-</h1></div>
+        <div class="submit" id="coinsubmit"><button>Flip It!</button></div>
+    </div> -->
+
+   
+
+
+
+    <script src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+        AOS.init();
+      </script>
+      <!-- <footer>
+     
+    <div class="about-me"data-aos="zoom-in" data-aos-offset="150" data-aos-duration="1000" >
+    	<h1> DEVELOPED BY:</h1><br>
+    	<h2>Apeksha Manchanda</h2><br>
+    	<p> A first year Computer Science Student of Indira Gandhi Delhi Technical University for Women</p>
+      </div>
+      </footer> -->
+
+</body>
+</html>
